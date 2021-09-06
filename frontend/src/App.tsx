@@ -1,10 +1,16 @@
-
+import Footer from './components/footer/index';
+import Navbar from './components/navbar/index';
+import DataTable from './components/DataTable/index';
 
 function App() {
   return (
-    <div>
-      <h1>Olá Mundo!</h1>
-    </div>
+    <>
+      <Navbar />
+      <div className="container">
+        <DataTable />
+      </div>
+      <Footer />
+    </>
   );
 }
 
